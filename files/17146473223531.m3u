@@ -1,0 +1,229 @@
+﻿#EXTM3U  x-tvg-url="https://tobalan.github.io/epg.xml.gz"
+#EXTINF:-1 tvg-name="ZOOM"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Zoom.png"tvg-chno="592"group-title="Music"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/592/index.m3u8"catchup-days="7",ZOOM
+http://localhost:3500/getm3u8/592/master.m3u8
+#EXTINF:-1 tvg-name="Zing"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Zing.png"tvg-chno="585"group-title="Music"catchup=""catchup-source=""catchup-days="",Zing
+http://localhost:3500/getm3u8/585/master.m3u8
+#EXTINF:-1 tvg-name="Zee UP UK"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Living_Foodz.png"tvg-chno="572"group-title="News"catchup=""catchup-source=""catchup-days="",Zee UP UK
+http://localhost:3500/getm3u8/572/master.m3u8
+#EXTINF:-1 tvg-name="Zee TV HD"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_TV_HD.png"tvg-chno="167"group-title="Entertainment"catchup=""catchup-source=""catchup-days="",Zee TV HD
+http://localhost:3500/getm3u8/167/master.m3u8
+#EXTINF:-1 tvg-name="Zee TV"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_TV.png"tvg-chno="1351"group-title="Entertainment"catchup=""catchup-source=""catchup-days="",Zee TV
+http://localhost:3500/getm3u8/1351/master.m3u8
+#EXTINF:-1 tvg-name="Zee News"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_News.png"tvg-chno="504"group-title="News"catchup=""catchup-source=""catchup-days="",Zee News
+http://localhost:3500/getm3u8/504/master.m3u8
+#EXTINF:-1 tvg-name="Zee Hindustan"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_SANGAM.png"tvg-chno="652"group-title="News"catchup=""catchup-source=""catchup-days="",Zee Hindustan
+http://localhost:3500/getm3u8/652/master.m3u8
+#EXTINF:-1 tvg-name="Zee Cinema HD"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_Cinema_HD.png"tvg-chno="165"group-title="Movies"catchup=""catchup-source=""catchup-days="",Zee Cinema HD
+http://localhost:3500/getm3u8/165/master.m3u8
+#EXTINF:-1 tvg-name="Zee Bollywood"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_Classic.png"tvg-chno="487"group-title="Movies"catchup=""catchup-source=""catchup-days="",Zee Bollywood
+http://localhost:3500/getm3u8/487/master.m3u8
+#EXTINF:-1 tvg-name="Zee Anmol Cinema"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_Anmol_Cinema.png"tvg-chno="415"group-title="Movies"catchup=""catchup-source=""catchup-days="",Zee Anmol Cinema
+http://localhost:3500/getm3u8/415/master.m3u8
+#EXTINF:-1 tvg-name="Zee Anmol"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_Anmol.png"tvg-chno="473"group-title="Entertainment"catchup=""catchup-source=""catchup-days="",Zee Anmol
+http://localhost:3500/getm3u8/473/master.m3u8
+#EXTINF:-1 tvg-name="Zee Action"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_Action.png"tvg-chno="488"group-title="Movies"catchup=""catchup-source=""catchup-days="",Zee Action
+http://localhost:3500/getm3u8/488/master.m3u8
+#EXTINF:-1 tvg-name="Wild Earth"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Wild_Earth.png"tvg-chno="2437"group-title="Infotainment"catchup=""catchup-source=""catchup-days="",Wild Earth
+http://localhost:3500/getm3u8/2437/master.m3u8
+#EXTINF:-1 tvg-name="TV9 Bharatvarsh"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/TV9_Bharatvarsh.png"tvg-chno="1251"group-title="News"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/1251/index.m3u8"catchup-days="7",TV9 Bharatvarsh
+http://localhost:3500/getm3u8/1251/master.m3u8
+#EXTINF:-1 tvg-name="Travelxp HD Hindi"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Travel_XP.png"tvg-chno="562"group-title="Lifestyle"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/562/index.m3u8"catchup-days="7",Travelxp HD Hindi
+http://localhost:3500/getm3u8/562/master.m3u8
+#EXTINF:-1 tvg-name="TLC Hindi"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/TLC_Hindi.png"tvg-chno="571"group-title="Lifestyle"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/571/index.m3u8"catchup-days="7",TLC Hindi
+http://localhost:3500/getm3u8/571/master.m3u8
+#EXTINF:-1 tvg-name="Times Now Navbharat"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Times_Now_Navbharat.png"tvg-chno="1906"group-title="News"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/1906/index.m3u8"catchup-days="7",Times Now Navbharat
+http://localhost:3500/getm3u8/1906/master.m3u8
+#EXTINF:-1 tvg-name="Times NOW"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Times_NOW.png"tvg-chno="383"group-title="News"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/383/index.m3u8"catchup-days="7",Times NOW
+http://localhost:3500/getm3u8/383/master.m3u8
+#EXTINF:-1 tvg-name="Ten 2"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_2.png"tvg-chno="523"group-title="Sports"catchup=""catchup-source=""catchup-days="",Ten 2
+http://localhost:3500/getm3u8/523/master.m3u8
+#EXTINF:-1 tvg-name="Sony Yay Hindi"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png"tvg-chno="872"group-title="Kids"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/872/index.m3u8"catchup-days="7",Sony Yay Hindi
+http://localhost:3500/getm3u8/872/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png"tvg-chno=""group-title="Sony Liv"catchup=""catchup-source=""catchup-days="",SONY YAY
+https://dai.google.com/linear/hls/event/GPY7RqOrSkmKJ8z1GbVNhg/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Wah.png"tvg-chno=""group-title="Sony Liv"catchup=""catchup-source=""catchup-days="",SONY WAH
+https://dai.google.com/linear/hls/event/gX5rCBf6Q7-D5AWY-sovzQ/master.m3u8
+#EXTINF:-1 tvg-name="Sony Wah"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Wah.png"tvg-chno="1393"group-title="Entertainment"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/1393/index.m3u8"catchup-days="7",Sony Wah
+http://localhost:3500/getm3u8/1393/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png"tvg-chno=""group-title="Sony Liv"catchup=""catchup-source=""catchup-days="",SONY TEN 5 HD
+https://dai.google.com/linear/hls/event/Sle_TR8rQIuZHWzshEXYjQ/master.m3u8
+#EXTINF:-1 tvg-name="Sony Ten 5 HD"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Six_HD.png"tvg-chno="155"group-title="Sports"catchup=""catchup-source=""catchup-days="",Sony Ten 5 HD
+http://localhost:3500/getm3u8/155/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png"tvg-chno=""group-title="Sony Liv"catchup=""catchup-source=""catchup-days="",SONY TEN 5
+https://dai.google.com/linear/hls/event/r-eLp41YTHWTagvQSXFtAQ/master.m3u8
+#EXTINF:-1 tvg-name="Sony Ten 5"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Six_SD.png"tvg-chno="525"group-title="Sports"catchup=""catchup-source=""catchup-days="",Sony Ten 5
+http://localhost:3500/getm3u8/525/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png"tvg-chno=""group-title="Sony Liv"catchup=""catchup-source=""catchup-days="",SONY TEN 4 HD
+https://pubads.g.doubleclick.net/ssai/event/tNzcW2ZhTVaViggo5ocI-A/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png"tvg-chno=""group-title="Sony Liv"catchup=""catchup-source=""catchup-days="",SONY TEN 4
+https://dai.google.com/linear/hls/event/smYybI_JToWaHzwoxSE9qA/master.m3u8
+#EXTINF:-1 tvg-name="Sony Ten 3 Hindi"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_3.png"tvg-chno="524"group-title="Sports"catchup=""catchup-source=""catchup-days="",Sony Ten 3 Hindi
+http://localhost:3500/getm3u8/524/master.m3u8
+#EXTINF:-1 tvg-name="Sony Ten 3 HD Hindi"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten3_HD.png"tvg-chno="892"group-title="Sports"catchup=""catchup-source=""catchup-days="",Sony Ten 3 HD Hindi
+http://localhost:3500/getm3u8/892/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten3_HD.png"tvg-chno=""group-title="Sony Liv"catchup=""catchup-source=""catchup-days="",SONY TEN 3 HD
+https://dai.google.com/linear/hls/event/ltsCG7TBSCSDmyq0rQtvSA/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_3.png"tvg-chno=""group-title="Sony Liv"catchup=""catchup-source=""catchup-days="",SONY TEN 3
+https://dai.google.com/linear/hls/event/BCOFZq1JQjq12fmaO6lAAA/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten2_HD.png"tvg-chno=""group-title="Sony Liv"catchup=""catchup-source=""catchup-days="",SONY TEN 2 HD
+https://dai.google.com/linear/hls/event/V9h-iyOxRiGp41ppQScDSQ/master.m3u8
+#EXTINF:-1 tvg-name="Sony Ten 2 HD"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten2_HD.png"tvg-chno="891"group-title="Sports"catchup=""catchup-source=""catchup-days="",Sony Ten 2 HD
+http://localhost:3500/getm3u8/891/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_2.png"tvg-chno=""group-title="Sony Liv"catchup=""catchup-source=""catchup-days="",SONY TEN 2
+https://dai.google.com/linear/hls/event/LK-ik89MQIi_pWBbg74KNQ/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png"tvg-chno=""group-title="Sony Liv"catchup=""catchup-source=""catchup-days="",SONY TEN 1 HD
+https://dai.google.com/linear/hls/event/wG75n5U8RrOKiFzaWObXbA/master.m3u8
+#EXTINF:-1 tvg-name="Sony Ten 1 HD"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png"tvg-chno="162"group-title="Sports"catchup=""catchup-source=""catchup-days="",Sony Ten 1 HD
+http://localhost:3500/getm3u8/162/master.m3u8
+#EXTINF:-1 tvg-name="Sony Ten 1"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_1.png"tvg-chno="514"group-title="Sports"catchup=""catchup-source=""catchup-days="",Sony Ten 1
+http://localhost:3500/getm3u8/514/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SAB_HD.png"tvg-chno=""group-title="Sony Liv"catchup=""catchup-source=""catchup-days="",SONY SAB HD
+https://dai.google.com/linear/hls/event/CrTivkDESWqwvUj3zFEYEA/master.m3u8
+#EXTINF:-1 tvg-name="Sony SAB HD"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SAB_HD.png"tvg-chno="471"group-title="Entertainment"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/471/index.m3u8"catchup-days="7",Sony SAB HD
+http://localhost:3500/getm3u8/471/master.m3u8
+#EXTINF:-1 tvg-name="Sony SAB"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SAB.png"tvg-chno="154"group-title="Entertainment"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/154/index.m3u8"catchup-days="7",Sony SAB
+http://localhost:3500/getm3u8/154/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pix_HD.png"tvg-chno=""group-title="Sony Liv"catchup=""catchup-source=""catchup-days="",SONY PIX HD
+https://dai.google.com/linear/hls/event/x7rXWd2ERZ2tvyQWPmO1HA/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pix_SD.png"tvg-chno=""group-title="Sony Liv"catchup=""catchup-source=""catchup-days="",SONY PIX HD
+https://dai.google.com/linear/hls/event/x7rXWd2ERZ2tvyQWPmO1HA/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pal.png"tvg-chno=""group-title="Sony Liv"catchup=""catchup-source=""catchup-days="",SONY PAL
+https://dai.google.com/linear/hls/event/dhPrGRwDRvuMQtmlzppzQQ/master.m3u8
+#EXTINF:-1 tvg-name="Sony Pal"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pal.png"tvg-chno="474"group-title="Entertainment"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/474/index.m3u8"catchup-days="7",Sony Pal
+http://localhost:3500/getm3u8/474/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_MAX2.png"tvg-chno=""group-title="Sony Liv"catchup=""catchup-source=""catchup-days="",SONY MAX2
+https://dai.google.com/linear/hls/event/MdQ5Zy-PSraOccXu8jflCg/master.m3u8
+#EXTINF:-1 tvg-name="Sony MAX2"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_MAX2.png"tvg-chno="483"group-title="Movies"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/483/index.m3u8"catchup-days="7",Sony MAX2
+http://localhost:3500/getm3u8/483/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png"tvg-chno=""group-title="Sony Liv"catchup=""catchup-source=""catchup-days="",SONY MAX HD
+https://dai.google.com/linear/hls/event/UcjHNJmCQ1WRlGKlZm73QA/master.m3u8
+#EXTINF:-1 tvg-name="Sony Max HD"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png"tvg-chno="476"group-title="Movies"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/476/index.m3u8"catchup-days="7",Sony Max HD
+http://localhost:3500/getm3u8/476/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/SET_MAX.png"tvg-chno=""group-title="Sony Liv"catchup=""catchup-source=""catchup-days="",SONY MAX
+https://dai.google.com/linear/hls/event/Oc1isQAET3WaNPoABfScmg/master.m3u8
+#EXTINF:-1 tvg-name="Sony Marathi SD"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Marathi_SD.png"tvg-chno="1146"group-title="Entertainment"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/1146/index.m3u8"catchup-days="7",Sony Marathi SD
+http://localhost:3500/getm3u8/1146/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Marathi_SD.png"tvg-chno=""group-title="Sony Liv"catchup=""catchup-source=""catchup-days="",SONY MARATHI
+https://dai.google.com/linear/hls/event/I2phC6tgTDuJngxw9gJgPw/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png"tvg-chno=""group-title="Sony Liv"catchup=""catchup-source=""catchup-days="",SONY HD
+https://dai.google.com/linear/hls/event/dBdwOiGaQvy0TA1zOsjV6w/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_BBC_Earth_HD.png"tvg-chno=""group-title="Sony Liv"catchup=""catchup-source=""catchup-days="",SONY BBC EARTH
+https://dai.google.com/linear/hls/event/6bVWYIKGS0CIa-cOpZZJPQ/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_aath.png"tvg-chno=""group-title="Sony Liv"catchup=""catchup-source=""catchup-days="",SONY AATH
+https://dai.google.com/linear/hls/event/j-YEIDwORxubtP_967VcZg/master.m3u8
+#EXTINF:-1 tvg-name="Sonic Hindi"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png"tvg-chno="815"group-title="Kids"catchup=""catchup-source=""catchup-days="",Sonic Hindi
+http://localhost:3500/getm3u8/815/master.m3u8
+#EXTINF:-1 tvg-name="SET HD"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png"tvg-chno="291"group-title="Entertainment"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/291/index.m3u8"catchup-days="7",SET HD
+http://localhost:3500/getm3u8/291/master.m3u8
+#EXTINF:-1 tvg-name="Rishtey"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Rishtey.png"tvg-chno="279"group-title="Entertainment"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/279/index.m3u8"catchup-days="7",Rishtey
+http://localhost:3500/getm3u8/279/master.m3u8
+#EXTINF:-1 tvg-name="Republic Bharat"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Republic_Bharat.png"tvg-chno="1403"group-title="News"catchup=""catchup-source=""catchup-days="",Republic Bharat
+http://localhost:3500/getm3u8/1403/master.m3u8
+#EXTINF:-1 tvg-name="Pogo Hindi"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Pogo_Hindi.png"tvg-chno="559"group-title="Kids"catchup=""catchup-source=""catchup-days="",Pogo Hindi
+http://localhost:3500/getm3u8/559/master.m3u8
+#EXTINF:-1 tvg-name="Nickelodeon Jr."tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Nickelodeon_Jr.png"tvg-chno="548"group-title="Kids"catchup=""catchup-source=""catchup-days="",Nickelodeon Jr.
+http://localhost:3500/getm3u8/548/master.m3u8
+#EXTINF:-1 tvg-name="Nickelodeon"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Nickelodeon.png"tvg-chno="547"group-title="Kids"catchup=""catchup-source=""catchup-days="",Nickelodeon
+http://localhost:3500/getm3u8/547/master.m3u8
+#EXTINF:-1 tvg-name="Nick Junior"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Nick_Junior.png"tvg-chno="544"group-title="Kids"catchup=""catchup-source=""catchup-days="",Nick Junior
+http://localhost:3500/getm3u8/544/master.m3u8
+#EXTINF:-1 tvg-name="Nick Hindi"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Nick_Hindi.png"tvg-chno="545"group-title="Kids"catchup=""catchup-source=""catchup-days="",Nick Hindi
+http://localhost:3500/getm3u8/545/master.m3u8
+#EXTINF:-1 tvg-name="Nick HD+"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Nick_HD_Plus.png"tvg-chno="1226"group-title="Kids"catchup=""catchup-source=""catchup-days="",Nick HD+
+http://localhost:3500/getm3u8/1226/master.m3u8
+#EXTINF:-1 tvg-name="News18 UP"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_UP.png"tvg-chno="530"group-title="News"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/530/index.m3u8"catchup-days="7",News18 UP
+http://localhost:3500/getm3u8/530/master.m3u8
+#EXTINF:-1 tvg-name="News 18 India"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/IBN_7.png"tvg-chno="231"group-title="News"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/231/index.m3u8"catchup-days="7",News 18 India
+http://localhost:3500/getm3u8/231/master.m3u8
+#EXTINF:-1 tvg-name="NDTV India"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/NDTV_India.png"tvg-chno="258"group-title="News"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/258/index.m3u8"catchup-days="7",NDTV India
+http://localhost:3500/getm3u8/258/master.m3u8
+#EXTINF:-1 tvg-name="NDTV 24x7"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/NDTV_24x7.png"tvg-chno="255"group-title="News"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/255/index.m3u8"catchup-days="7",NDTV 24x7
+http://localhost:3500/getm3u8/255/master.m3u8
+#EXTINF:-1 tvg-name="MTV Beats HD"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/MTV_Beats_HD.png"tvg-chno="753"group-title="Music"catchup=""catchup-source=""catchup-days="",MTV Beats HD
+http://localhost:3500/getm3u8/753/master.m3u8
+#EXTINF:-1 tvg-name="Mastiii"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Mastiii.png"tvg-chno="584"group-title="Music"catchup=""catchup-source=""catchup-days="",Mastiii
+http://localhost:3500/getm3u8/584/master.m3u8
+#EXTINF:-1 tvg-name="MasterChef India"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyLiv_MasterChef.png"tvg-chno="2828"group-title="Lifestyle"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/2828/index.m3u8"catchup-days="7",MasterChef India
+http://localhost:3500/getm3u8/2828/master.m3u8
+#EXTINF:-1 tvg-name="India TV"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/India_TV.png"tvg-chno="235"group-title="News"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/235/index.m3u8"catchup-days="7",India TV
+http://localhost:3500/getm3u8/235/master.m3u8
+#EXTINF:-1 tvg-name="India Today"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/India_Today.png"tvg-chno="493"group-title="News"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/493/index.m3u8"catchup-days="7",India Today
+http://localhost:3500/getm3u8/493/master.m3u8
+#EXTINF:-1 tvg-name="India 24x7"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/India24x7.png"tvg-chno="2176"group-title="News"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/2176/index.m3u8"catchup-days="7",India 24x7
+http://localhost:3500/getm3u8/2176/master.m3u8
+#EXTINF:-1 tvg-name="History TV18 HD Hindi"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/History_18_Hindi.png"tvg-chno="578"group-title="Infotainment"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/578/index.m3u8"catchup-days="7",History TV18 HD Hindi
+http://localhost:3500/getm3u8/578/master.m3u8
+#EXTINF:-1 tvg-name="Epic"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Epic_HD.png"tvg-chno="481"group-title="Entertainment"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/481/index.m3u8"catchup-days="7",Epic
+http://localhost:3500/getm3u8/481/master.m3u8
+#EXTINF:-1 tvg-name="Enterr 10"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Enterr_10.png"tvg-chno="485"group-title="Entertainment"catchup=""catchup-source=""catchup-days="",Enterr 10
+http://localhost:3500/getm3u8/485/master.m3u8
+#EXTINF:-1 tvg-name="Discovery Turbo"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Discovery_Turbo.png"tvg-chno="541"group-title="Infotainment"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/541/index.m3u8"catchup-days="7",Discovery Turbo
+http://localhost:3500/getm3u8/541/master.m3u8
+#EXTINF:-1 tvg-name="Discovery Science"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Discovery_Science.png"tvg-chno="568"group-title="Infotainment"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/568/index.m3u8"catchup-days="7",Discovery Science
+http://localhost:3500/getm3u8/568/master.m3u8
+#EXTINF:-1 tvg-name="Discovery Kids 2"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Discovery_Kids_2.png"tvg-chno="554"group-title="Kids"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/554/index.m3u8"catchup-days="7",Discovery Kids 2
+http://localhost:3500/getm3u8/554/master.m3u8
+#EXTINF:-1 tvg-name="Discovery HD World"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Discovery_HD_World.png"tvg-chno="463"group-title="Infotainment"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/463/index.m3u8"catchup-days="7",Discovery HD World
+http://localhost:3500/getm3u8/463/master.m3u8
+#EXTINF:-1 tvg-name="Discovery Channel Hindi"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Discovery_Channel_Hindi.png"tvg-chno="575"group-title="Infotainment"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/575/index.m3u8"catchup-days="7",Discovery Channel Hindi
+http://localhost:3500/getm3u8/575/master.m3u8
+#EXTINF:-1 tvg-name="DD Sports"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_Sports.png"tvg-chno="204"group-title="Sports"catchup=""catchup-source=""catchup-days="",DD Sports
+http://localhost:3500/getm3u8/204/master.m3u8
+#EXTINF:-1 tvg-name="DD News"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_News.png"tvg-chno="203"group-title="News"catchup=""catchup-source=""catchup-days="",DD News
+http://localhost:3500/getm3u8/203/master.m3u8
+#EXTINF:-1 tvg-name="DD National"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_National.png"tvg-chno="202"group-title="Entertainment"catchup=""catchup-source=""catchup-days="",DD National
+http://localhost:3500/getm3u8/202/master.m3u8
+#EXTINF:-1 tvg-name="DD Kisan"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_Kisan.png"tvg-chno="583"group-title="Infotainment"catchup=""catchup-source=""catchup-days="",DD Kisan
+http://localhost:3500/getm3u8/583/master.m3u8
+#EXTINF:-1 tvg-name="Dangal"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Dangal.png"tvg-chno="701"group-title="Entertainment"catchup=""catchup-source=""catchup-days="",Dangal
+http://localhost:3500/getm3u8/701/master.m3u8
+#EXTINF:-1 tvg-name="Dabangg"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Dabangg.png"tvg-chno="532"group-title="Entertainment"catchup=""catchup-source=""catchup-days="",Dabangg
+http://localhost:3500/getm3u8/532/master.m3u8
+#EXTINF:-1 tvg-name="Comedy Central HD"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Comedy_Central_HD.png"tvg-chno="1157"group-title="Entertainment"catchup=""catchup-source=""catchup-days="",Comedy Central HD
+http://localhost:3500/getm3u8/1157/master.m3u8
+#EXTINF:-1 tvg-name="Colors Infinity HD"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Infinity_HD.png"tvg-chno="1158"group-title="Entertainment"catchup=""catchup-source=""catchup-days="",Colors Infinity HD
+http://localhost:3500/getm3u8/1158/master.m3u8
+#EXTINF:-1 tvg-name="Colors HD"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_HD.png"tvg-chno="144"group-title="Entertainment"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/144/index.m3u8"catchup-days="7",Colors HD
+http://localhost:3500/getm3u8/144/master.m3u8
+#EXTINF:-1 tvg-name="Colors Cineplex HD"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Color_Cineplex_HD.png"tvg-chno="1477"group-title="Movies"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/1477/index.m3u8"catchup-days="7",Colors Cineplex HD
+http://localhost:3500/getm3u8/1477/master.m3u8
+#EXTINF:-1 tvg-name="Colors Cineplex Bollywood"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Cineplex_Bollywood.png"tvg-chno="1763"group-title="Movies"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/1763/index.m3u8"catchup-days="7",Colors Cineplex Bollywood
+http://localhost:3500/getm3u8/1763/master.m3u8
+#EXTINF:-1 tvg-name="Cartoon Network Hindi"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Cartoon_Network_Hindi.png"tvg-chno="816"group-title="Kids"catchup=""catchup-source=""catchup-days="",Cartoon Network Hindi
+http://localhost:3500/getm3u8/816/master.m3u8
+#EXTINF:-1 tvg-name="Bollywood Hungama"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Bollywood_Hungama.png"tvg-chno="2040"group-title="Entertainment"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/2040/index.m3u8"catchup-days="7",Bollywood Hungama
+http://localhost:3500/getm3u8/2040/master.m3u8
+#EXTINF:-1 tvg-name="Big TV"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Big_TV.png"tvg-chno="2783"group-title="News"catchup=""catchup-source=""catchup-days="",Big TV
+http://localhost:3500/getm3u8/2783/master.m3u8
+#EXTINF:-1 tvg-name="Big Magic"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Big_Magic.png"tvg-chno="1359"group-title="Entertainment"catchup=""catchup-source=""catchup-days="",Big Magic
+http://localhost:3500/getm3u8/1359/master.m3u8
+#EXTINF:-1 tvg-name="Bhojpuri Junction"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Bhojpuri_Junction.png"tvg-chno="2229"group-title="Music"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/2229/index.m3u8"catchup-days="7",Bhojpuri Junction
+http://localhost:3500/getm3u8/2229/master.m3u8
+#EXTINF:-1 tvg-name="Bhojpuri Cinema"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Bhojpuri_Cinema.png"tvg-chno="486"group-title="Movies"catchup=""catchup-source=""catchup-days="",Bhojpuri Cinema
+http://localhost:3500/getm3u8/486/master.m3u8
+#EXTINF:-1 tvg-name="B4U Music"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/B4U_Music.png"tvg-chno="183"group-title="Music"catchup=""catchup-source=""catchup-days="",B4U Music
+http://localhost:3500/getm3u8/183/master.m3u8
+#EXTINF:-1 tvg-name="B4U Movies"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/B4U_Movies.png"tvg-chno="182"group-title="Movies"catchup=""catchup-source=""catchup-days="",B4U Movies
+http://localhost:3500/getm3u8/182/master.m3u8
+#EXTINF:-1 tvg-name="B4U Kadak"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/B4U_Kadak.png"tvg-chno="1295"group-title="Movies"catchup=""catchup-source=""catchup-days="",B4U Kadak
+http://localhost:3500/getm3u8/1295/master.m3u8
+#EXTINF:-1 tvg-name="B4U Bhojpuri"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/B4U_Bhojpuri.png"tvg-chno="1296"group-title="Movies"catchup=""catchup-source=""catchup-days="",B4U Bhojpuri
+http://localhost:3500/getm3u8/1296/master.m3u8
+#EXTINF:-1 tvg-name="Animal Planet Hindi"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Animal_Planet_Hindi.png"tvg-chno="566"group-title="Infotainment"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/566/index.m3u8"catchup-days="7",Animal Planet Hindi
+http://localhost:3500/getm3u8/566/master.m3u8
+#EXTINF:-1 tvg-name="Animal Planet HD World"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Animal_Planet_HD.png"tvg-chno="286"group-title="Infotainment"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/286/index.m3u8"catchup-days="7",Animal Planet HD World
+http://localhost:3500/getm3u8/286/master.m3u8
+#EXTINF:-1 tvg-name="And TV HD"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/And_TV_HD.png"tvg-chno="472"group-title="Entertainment"catchup=""catchup-source=""catchup-days="",And TV HD
+http://localhost:3500/getm3u8/472/master.m3u8
+#EXTINF:-1 tvg-name="And Pictures HD"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/And_Pictures_HD.png"tvg-chno="185"group-title="Movies"catchup=""catchup-source=""catchup-days="",And Pictures HD
+http://localhost:3500/getm3u8/185/master.m3u8
+#EXTINF:-1 tvg-name="ABP News India"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ABP_News_India.png"tvg-chno="177"group-title="News"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/177/index.m3u8"catchup-days="7",ABP News India
+http://localhost:3500/getm3u8/177/master.m3u8
+#EXTINF:-1 tvg-name="Aaj Tak"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Aaj_Tak.png"tvg-chno="173"group-title="News"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/173/index.m3u8"catchup-days="7",Aaj Tak
+http://localhost:3500/getm3u8/173/master.m3u8
+#EXTINF:-1 tvg-name="9XM"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/9XM.png"tvg-chno="587"group-title="Music"catchup=""catchup-source=""catchup-days="",9XM
+http://localhost:3500/getm3u8/587/master.m3u8
+#EXTINF:-1 tvg-name="9 Bharat Samachar"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/9_Bharat_Samachar.png"tvg-chno="1451"group-title="News"catchup="vod"catchup-source="http://localhost:3500/catchup/getm3u8/${start}/${end}/1451/index.m3u8"catchup-days="7",9 Bharat Samachar
+http://localhost:3500/getm3u8/1451/master.m3u8
+#EXTINF:-1 tvg-name="&Flix HD"tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/And_Flix_HD.png"tvg-chno="1322"group-title="Movies"catchup=""catchup-source=""catchup-days="",&Flix HD
+http://localhost:3500/getm3u8/1322/master.m3u8

@@ -11,9 +11,17 @@ const fileSchema = new Schema({
         type:String,
         required: true,
     },
+    codeName:{
+        type:String,
+        required:true,
+    },
     type:{
         type:String,
         required:true,
+    },
+    size:{
+        type:Number,
+        required:false,
     },
 })
 

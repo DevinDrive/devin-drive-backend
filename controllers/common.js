@@ -8,6 +8,11 @@ export const errorTest = (req, res) => {
     throw new Error("Error test")
 }
 
+export const checkLogin = (req,res) => {
+    const user = req.body.user
+    res.json(user)
+}
+
 export const signUpHandler = async (req, res,next) => {
     try {
         const { phoneNo, password } = req.body

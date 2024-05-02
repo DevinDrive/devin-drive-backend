@@ -1,9 +1,10 @@
 import { Router } from "express";
-import { errorTest, signUpHandler, test, loginHandler } from "../controllers/common.js";
-import { sendCodeHandler, teleLoginHandler } from "../controllers/auth.js";
-import { authMiddleware } from "../middleware/authorize.js";
 import multer from "multer";
-import { addToCollection, createCollection, getAFile, checkLogin, getAllFilesFromACollection, deleteFile, deleteFolder} from "../controllers/collections.js";
+import { authMiddleware } from "../middleware/authorize.js";
+import { errorTest, signUpHandler, test, loginHandler, checkLogin } from "../controllers/common.js";
+import { sendCodeHandler, teleLoginHandler } from "../controllers/auth.js";
+import {deleteFolder, createFolder, addToFolder, getAllFilesFromFolder} from "../controllers/folder.js";
+import {getAFile, deleteFile} from "../controllers/files.js";
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
@@ -32,9 +33,9 @@ router.post("/checkLogin",authMiddleware,checkLogin)
 
 
 // handle folders and files
-router.get("/getAllFilesFromCollection",authMiddleware,getAllFilesFromACollection)
+router.get("/getAllFilesFromFolder",authMiddleware,getAllFilesFromFolder)
 router.get("/getAFile",authMiddleware,getAFile)
-router.post("/createCollection",authMiddleware,createCollection)
+router.post("/createFolder",authMiddleware,createFolder)
 router.get("/deleteFile/",authMiddleware,deleteFile)
 router.get("/deleteFolder/",authMiddleware,deleteFolder)
-router.post("/addToCollection", upload.array('files'),authMiddleware, addToCollection)
+router.post("/addToFolder", upload.array('files'),authMiddleware, addToFolder)
