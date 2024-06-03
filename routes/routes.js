@@ -4,6 +4,7 @@ import { sendCodeHandler, teleLoginHandler } from "../controllers/auth.js";
 import { authMiddleware } from "../middleware/authorize.js";
 import multer from "multer";
 import { addToCollection, createCollection, getAFile, checkLogin, getAllFilesFromACollection, deleteFile, deleteFolder} from "../controllers/collections.js";
+import { renameFileHandler } from "../controllers/files.js";
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
@@ -26,15 +27,18 @@ router.get("/error", errorTest)
 router.post('/signup', signUpHandler)
 router.post('/login', loginHandler)
 
-router.post("/sendCode", authMiddleware, sendCodeHandler)
-router.post("/loginTelegram", authMiddleware, teleLoginHandler)
-router.post("/checkLogin",authMiddleware,checkLogin)
+router.use(authMiddleware)
+
+router.post("/sendCode", sendCodeHandler)
+router.post("/loginTelegram", teleLoginHandler)
+router.post("/checkLogin",checkLogin)
 
 
 // handle folders and files
-router.get("/getAllFilesFromCollection",authMiddleware,getAllFilesFromACollection)
-router.get("/getAFile",authMiddleware,getAFile)
-router.post("/createCollection",authMiddleware,createCollection)
-router.get("/deleteFile/",authMiddleware,deleteFile)
-router.get("/deleteFolder/",authMiddleware,deleteFolder)
-router.post("/addToCollection", upload.array('files'),authMiddleware, addToCollection)
+router.get("/getAllFilesFromCollection",getAllFilesFromACollection)
+router.get("/getAFile",getAFile)
+router.post("/createCollection",createCollection)
+router.get("/deleteFile/",deleteFile)
+router.get("/deleteFolder/",deleteFolder)
+router.post("/addToCollection", upload.array('files'), addToCollection)
+router.post("/rename",renameFileHandler)
