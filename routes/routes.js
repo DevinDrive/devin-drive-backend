@@ -5,6 +5,7 @@ import { authMiddleware } from "../middleware/authorize.js";
 import multer from "multer";
 import { addToCollection, createCollection, getAFile, checkLogin, getAllFilesFromACollection, deleteFile, deleteFolder } from "../controllers/collections.js";
 import { renameFileHandler } from "../controllers/files.js";
+import { uploadChunkHandler } from "../controllers/upload.js";
 
 const storage = multer.diskStorage({
   destination: function(_, _, cb) {
@@ -42,3 +43,4 @@ router.get("/deleteFile/", deleteFile)
 router.get("/deleteFolder/", deleteFolder)
 router.post("/addToCollection", upload.array('files'), addToCollection)
 router.post("/rename", renameFileHandler)
+router.post("/upload",upload.single('file'),uploadChunkHandler)

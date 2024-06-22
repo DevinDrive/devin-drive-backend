@@ -15,6 +15,9 @@ const fileSchema = new Schema({
         type:String,
         required:true,
     },
+    file_chunks:{
+        type: [String],
+    }
 })
 
 const collectionSchema = new Schema({
