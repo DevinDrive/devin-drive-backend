@@ -3,18 +3,18 @@ import { errorTest, signUpHandler, test, loginHandler } from "../controllers/com
 import { sendCodeHandler, teleLoginHandler } from "../controllers/auth.js";
 import { authMiddleware } from "../middleware/authorize.js";
 import multer from "multer";
-import { addToCollection, createCollection, getAFile, checkLogin, getAllFilesFromACollection, deleteFile, deleteFolder} from "../controllers/collections.js";
+import { addToCollection, createCollection, getAFile, checkLogin, getAllFilesFromACollection, deleteFile, deleteFolder } from "../controllers/collections.js";
 import { renameFileHandler } from "../controllers/files.js";
 
 const storage = multer.diskStorage({
-    destination: function (req, file, cb) {
-        cb(null, 'files/'); // Specify the directory where files will be stored
-    },
-    filename: function (req, file, cb) {
-        req.fileName = Date.now()+file.originalname
-        req.fileOrgName = file.originalname
-        cb(null, Date.now()+file.originalname); // Use the original file name for saving
-    }
+  destination: function(_, _, cb) {
+    cb(null, 'files/'); // Specify the directory where files will be stored
+  },
+  filename: function(req, file, cb) {
+    req.fileName = Date.now() + file.originalname
+    req.fileOrgName = file.originalname
+    cb(null, Date.now() + file.originalname); // Use the original file name for saving
+  }
 });
 
 const upload = multer({ storage: storage });
@@ -31,14 +31,14 @@ router.use(authMiddleware)
 
 router.post("/sendCode", sendCodeHandler)
 router.post("/loginTelegram", teleLoginHandler)
-router.post("/checkLogin",checkLogin)
+router.post("/checkLogin", checkLogin)
 
 
 // handle folders and files
-router.get("/getAllFilesFromCollection",getAllFilesFromACollection)
-router.get("/getAFile",getAFile)
-router.post("/createCollection",createCollection)
-router.get("/deleteFile/",deleteFile)
-router.get("/deleteFolder/",deleteFolder)
+router.get("/getAllFilesFromCollection", getAllFilesFromACollection)
+router.get("/getAFile", getAFile)
+router.post("/createCollection", createCollection)
+router.get("/deleteFile/", deleteFile)
+router.get("/deleteFolder/", deleteFolder)
 router.post("/addToCollection", upload.array('files'), addToCollection)
-router.post("/rename",renameFileHandler)
+router.post("/rename", renameFileHandler)

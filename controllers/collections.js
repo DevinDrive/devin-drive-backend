@@ -251,7 +251,7 @@ export const addToCollection = async (req,res, next) => {
                 }
             }
         }
-        await fs.unlink(`files/${file[i]}`);
+        fs.unlink(`files/${file[i]}`);
 
     }
     await user.save();
