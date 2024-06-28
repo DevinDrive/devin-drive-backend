@@ -8,7 +8,7 @@ import { renameFileHandler } from "../controllers/files.js";
 import { uploadChunkHandler } from "../controllers/upload.js";
 
 const storage = multer.diskStorage({
-  destination: function(_, _, cb) {
+  destination: function(req,res , cb) {
     cb(null, 'files/'); // Specify the directory where files will be stored
   },
   filename: function(req, file, cb) {
