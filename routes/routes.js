@@ -21,26 +21,24 @@ const storage = multer.diskStorage({
 const upload = multer({ storage: storage });
 export const router = Router()
 
-router.get("/test", test)
-router.get("/error", errorTest)
+// router.get("/test", test)
+//router.get("/error", errorTest)
 
 // handle authentication
 router.post('/signup', signUpHandler)
 router.post('/login', loginHandler)
 
-router.use(authMiddleware)
-
-router.post("/sendCode", sendCodeHandler)
-router.post("/loginTelegram", teleLoginHandler)
-router.post("/checkLogin", checkLogin)
+router.post("/sendCode",authMiddleware, sendCodeHandler)
+router.post("/loginTelegram",authMiddleware, teleLoginHandler)
+router.post("/checkLogin", authMiddleware,checkLogin)
 
 
 // handle folders and files
-router.get("/getAllFilesFromCollection", getAllFilesFromACollection)
-router.get("/getAFile", getAFile)
-router.post("/createCollection", createCollection)
-router.get("/deleteFile/", deleteFile)
-router.get("/deleteFolder/", deleteFolder)
-router.post("/addToCollection", upload.array('files'), addToCollection)
-router.post("/rename", renameFileHandler)
-router.post("/upload",upload.single('file'),uploadChunkHandler)
+router.get("/getAllFilesFromCollection", authMiddleware,getAllFilesFromACollection)
+router.get("/getAFile", authMiddleware,getAFile)
+router.post("/createCollection", authMiddleware,createCollection)
+router.get("/deleteFile/", authMiddleware,deleteFile)
+router.get("/deleteFolder/", authMiddleware,deleteFolder)
+router.post("/addToCollection", authMiddleware,upload.array('files'), addToCollection)
+router.post("/rename", authMiddleware,renameFileHandler)
+router.post("/upload",authMiddleware,upload.single('file'),uploadChunkHandler)
